@@ -1,0 +1,27 @@
+{
+  "name": "pumpswap-tools",
+  "version": "1.0.0",
+  "description": "pumpswap tool",
+  "main": "index.js",
+  "repository": "https://github.com/hexnome/pumpswap-amm-tools.git",
+  "author": "hexnome <hexnome88@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@pump-fun/pump-swap-sdk": "^0.0.1-beta.21",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.0",
+    "@types/node": "^22.13.11",
+    "@types/prompt-sync": "^4.2.3",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
