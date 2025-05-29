@@ -5,7 +5,7 @@ export type PumpSwapIDL = {
         "name": "pumpAmm",
         "version": "0.1.0",
         "spec": "0.1.0",
-        "description": "Created with Anchor & https://github.com/vvizardev"
+        "description": "Created with Anchor"
     },
     "instructions": [
         {
